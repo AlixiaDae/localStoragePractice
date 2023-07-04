@@ -1,0 +1,2 @@
+# localStoragePractice
+Practice for localStorage
