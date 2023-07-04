@@ -1,11 +1,14 @@
 body {
     margin: 0;
     height: 100vh;
+}
+
+.main {
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    justify-content: center;
     align-items: center;
+    gap: 10px;
+    padding: 10px;
 }
 
 input {
@@ -20,6 +23,16 @@ input {
     color: whitesmoke;
     border: none;
     border-radius: 5px;
+}
+
+.students {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(228, 228, 228);
+    justify-content: center;
+    text-align: center;
 }
 
 #submit-button:hover {
