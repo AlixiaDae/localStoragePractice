@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    height: 30px;
+    width: 200px;
+}
+
+#submit-button {
+    height: 35px;
+    width: 200px;
+    background-color: rgb(46, 46, 253);
+    color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+}
+
+#submit-button:hover {
+    background-color: rgb(40, 40, 202);
+}
